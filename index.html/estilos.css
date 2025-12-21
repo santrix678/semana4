@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Sobrescribir botón Bootstrap */
+.btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+/* Tarjetas */
+.tarjeta {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+}
+
+/* Media Query personalizada */
+@media (max-width: 768px) {
+    body {
+        background-color: #e0e0e0;
+    }
+}
+
